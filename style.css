@@ -1,0 +1,32 @@
+#winners {
+    width: 100%;
+    height: 45%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+#winners > div {
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+    margin-top: 10px;
+}
+body {
+	     padding: 30px;
+	     background: #000;
+	 }
+	 rect {
+	     fill: purple;
+	     padding: 7px;
+	     margin: 2px;
+	     color: white;
+	 }
+     rect.win {
+        fill: red;
+     }
+	 rect:hover {
+	     opacity : 0.5;
+	 }
+	
